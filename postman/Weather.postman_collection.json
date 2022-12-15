@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "8b1757d0-1242-44e1-9cef-a7690094af69",
+		"name": "Weather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Information",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/weather/get-information?date=2022-12-16",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weather",
+						"get-information"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2022-12-16"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pull Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/weather/pull-data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weather",
+						"pull-data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
